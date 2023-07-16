@@ -1,0 +1,166 @@
+html, body{
+
+    width: 100%;
+    height: 100%;
+    background-color: #2B7C91;
+}
+#header{
+
+position: fixed;
+top: 0;
+left: 0;
+bottom: 0;
+background-color: #435154;
+
+
+overflow-y: auto;
+width: 250px;
+
+padding: 0 15px;
+transition: all ease-in-out 0.5s;
+z-index: 9997;
+
+}
+#header .perfil img{
+
+margin:  20px auto;
+display: block;
+width: 150px;
+height: 150px;
+border: 2px solid black;
+border-radius: 50%;
+shadow: 2px 2px 4px black;
+}
+#header .perfil h1{
+font-size: 40px;  
+margin: 0;
+padding: 0;
+text-align: center;
+color: #FFFFFF;
+font-weight: 600;
+    
+}
+#header .perfil .redesocial a{
+   
+background: #FFFFFF;
+color: black;
+padding: 0.7rem;
+margin-right: 1rem;
+border-radius: 50%;
+transition: 0.3s;
+text-decoration:none;
+font-size: 1rem;
+}
+.nav-menu{
+
+    padding: 1.5rem;
+}
+.nav-menu a, .nav-menu a:focus{
+transition: 0.3s;
+display: flex;
+align-items: center;
+color: white;
+font-size: 15px;
+
+}
+.nav-menu a i,.nav-menu a:focus i{
+
+font-size: 20px;
+padding-right: 1rem;
+
+
+}
+#main, .footer{
+    margin-left: 250px;
+}footer{
+
+    background-color: #FFFFFF;
+}p{
+    color: black;
+}
+
+
+
+section#inicio{
+background-image: url(./img/bannert0.jpeg); /* bannner do meu curriculo*/
+background-repeat: no-repeat ;
+background-size: cover;
+background-size: fixed;
+background-position: center;
+width: 100%;
+height: 100vh;
+}
+section#inicio h2{
+font-size: 6rem;
+text-shadow: 1px 1px 2px black;
+
+}
+section#inicio span#subtitulo{
+    margin-right: 4rem;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px black;
+}
+section#inicio div#arraste{
+
+
+
+}
+section#inicio div#arraste a{
+text-decoration: none;
+
+}
+#botao{
+position: absolute;
+margin-top: -250px;    
+}
+
+
+#email{
+    margin-left: 100px;
+    font-size: 1rem;
+    color: black;
+    align-items: center;
+}
+.section-bg{
+background-color: #2B7C91;
+
+}
+i.menu-mobile{
+position: fixed;
+color: black;
+background-color: #2B7C91;
+right: 1rem;
+top: 1rem;
+font-size: 1.5rem;
+border-radius: 4rem;
+z-index: 10;
+height: 45px;
+width: 45px;
+display: none;
+justify-content: center;
+align-items: center;
+
+}
+@media (max-width: 1024px){
+#header{
+    left: -300px;
+}
+i.menu-mobile{
+    display: flex;
+}
+section#inicio h2{
+    font-size: 3.4rem;
+}
+section#inicio span#subtitulo{
+    margin-right: 0;
+    font-size: 1rem;
+
+}
+#main{
+    margin-left: 0;
+}
+}#nav-curriculo {
+
+
+    
+}
